@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher-Icon fuer HealthLog: Klemmbrett-Liste mit drei Zeilen, die
+     ersten beiden abgehakt. 108x108, Motiv innerhalb von Radius 31 um die
+     Mitte (54,54), damit die runde Launcher-Maske nichts abschneidet.
+     Hintergrundfarbe kommt per -IconBackground. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Haken 1 und 2 -->
+    <path android:fillColor="#3FB6A8"
+        android:pathData="M31,39 l4,4 l8,-9 l3,3 l-11,12 l-7,-7 z" />
+    <path android:fillColor="#3FB6A8"
+        android:pathData="M31,54 l4,4 l8,-9 l3,3 l-11,12 l-7,-7 z" />
+    <!-- Offener Punkt 3 -->
+    <path android:fillColor="#93A0AF"
+        android:pathData="M30,66 h13 v13 h-13 z M33,69 v7 h7 v-7 z" />
+
+    <!-- Zeilen -->
+    <path android:fillColor="#E8EDF2" android:pathData="M51,37 h28 v5 h-28 z" />
+    <path android:fillColor="#E8EDF2" android:pathData="M51,52 h28 v5 h-28 z" />
+    <path android:fillColor="#E8EDF2" android:pathData="M51,70 h22 v5 h-22 z" />
+</vector>
